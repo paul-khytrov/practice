@@ -14,7 +14,7 @@ import { useState } from 'react';
 import Element from './element';
 
 export default function Home() {
-  var [skins, addSkin] = useState<Skin[]>([])
+  let [skins, addSkin] = useState<Skin[]>([])
 
   const fetchData = async () => {
     const response = await fetch('https://steamcommunity.com/id/theanimaker/inventory/json/730/2'); // Replace with your API endpoint

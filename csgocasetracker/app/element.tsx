@@ -10,7 +10,7 @@ interface Skin
 export default function element(skin: Skin)
 {
     
-  var  rarityColor = "#";
+  let  rarityColor = "#";
   switch(skin.Rarity)
   {
     
